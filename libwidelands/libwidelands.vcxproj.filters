@@ -1,0 +1,3310 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="base">
+      <UniqueIdentifier>{ec8edc59-a019-417b-9b17-35069881b915}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="base\format">
+      <UniqueIdentifier>{73423e73-4f4d-44ae-8b9c-01231db6c32d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io">
+      <UniqueIdentifier>{4089d786-0081-4df3-84f7-0556919ae73d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="io\filesystem">
+      <UniqueIdentifier>{8d4812d3-f1ee-48d6-a282-07ae73227819}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="notifications">
+      <UniqueIdentifier>{3d84fe6d-0787-4e61-a935-cdd4f1fa5d39}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="minizip">
+      <UniqueIdentifier>{40899937-29ed-4e3c-b41c-2339c632dc6a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic">
+      <UniqueIdentifier>{2723dad5-26d8-4b0a-80be-1ba9d80c413a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\map_objects">
+      <UniqueIdentifier>{9ba23236-f9fa-4c2e-952b-1da77a563cca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\map_objects\tribes">
+      <UniqueIdentifier>{b061b6b0-3cdc-4dba-94e3-1dc2f1459cb2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="logic\map_objects\world">
+      <UniqueIdentifier>{e3daacd7-d9c2-470b-bb35-8d822c683c65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphic">
+      <UniqueIdentifier>{dec42f2c-e1fb-42ee-b7cf-54ffc68d1f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphic\animation">
+      <UniqueIdentifier>{e1460ac8-5235-49d1-a40e-d32ec193e396}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphic\gl">
+      <UniqueIdentifier>{5b1210de-84ae-43e0-be6d-ce4bb7eb2149}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphic\styles">
+      <UniqueIdentifier>{ae1f5a22-f415-4555-8bef-3f275bdab076}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="graphic\text">
+      <UniqueIdentifier>{3197151d-f4b6-4827-b91f-0fce849ecb14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ai">
+      <UniqueIdentifier>{97918251-415d-420c-9d7b-c82ffc6b9904}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="economy">
+      <UniqueIdentifier>{bc3a6e3f-df02-46bb-a0f6-bddec7dc7fb6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="scripting">
+      <UniqueIdentifier>{0cc171d7-861f-46be-a21e-5b3a2aec2274}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="eris">
+      <UniqueIdentifier>{a935b0a1-afc5-4c44-a4a9-c6873125bd10}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="game_io">
+      <UniqueIdentifier>{bd79658c-2c19-455e-93bd-a0095b906757}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sound">
+      <UniqueIdentifier>{0cc6ec2e-08f3-4afa-9e2e-228c198b8fcc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui_basic">
+      <UniqueIdentifier>{99758484-ca69-404e-878c-64c19d72fb67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="wui">
+      <UniqueIdentifier>{064d37d4-4eb1-4636-87ce-dcec8d33580f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="map_io">
+      <UniqueIdentifier>{1dc02cf0-9033-41d2-a37a-8257dc1d018c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor">
+      <UniqueIdentifier>{f3c53569-4eb7-4e02-b53d-cc67aaffa8ae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\tools">
+      <UniqueIdentifier>{ee218d8d-48ee-4bff-bd00-f7311796fe4e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="editor\ui_menus">
+      <UniqueIdentifier>{a2c8226d-ca5c-4bbc-863a-6fd75b29e3ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="chat">
+      <UniqueIdentifier>{dd7826ef-bd5a-4f34-b6da-15a4bb200c14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="network">
+      <UniqueIdentifier>{c48ed24f-e08a-4b65-b806-a369dafd91a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="sha1">
+      <UniqueIdentifier>{56e069f9-2709-4737-ae51-d28934d3ab2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui_fsmenu">
+      <UniqueIdentifier>{c2d9175a-a1d6-45f8-a685-31ac6c983a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ui_fsmenu\addons">
+      <UniqueIdentifier>{dcd83c2f-3dd6-4827-b6b4-d1c1af851e86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\ai\ai_help_structs.cc">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ai\ai_hints.cc">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ai\computer_player.cc">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ai\defaultai.cc">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ai\defaultai_seafaring.cc">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ai\defaultai_warfare.cc">
+      <Filter>ai</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\format\tree.cc">
+      <Filter>base\format</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\exceptions.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\i18n.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\log.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\macros.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\math.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\md5.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\multithreading.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\random.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\scoped_timer.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\string.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\test.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\time_string.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\times.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\utf8.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\base\vector.cc">
+      <Filter>base</Filter>
+    </ClCompile>
+    <ClCompile Include="src\chat\chat.cc">
+      <Filter>chat</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\cmd_call_economy_balance.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\economy.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\economy_data_packet.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\expedition_bootstrap.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\ferry_fleet.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\flag.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\idleworkersupply.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\input_queue.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\portdock.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\request.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\road.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\roadbase.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\route.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\routeastar.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\router.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\ship_fleet.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\shipping_schedule.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\shippingitem.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\supply_list.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\transfer.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\ware_instance.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\ware_priority.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\wares_queue.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\waterway.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\economy\workers_queue.cc">
+      <Filter>economy</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\decrease_height_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\decrease_resources_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\delete_critter_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\delete_immovable_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\draw_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\history.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\increase_height_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\increase_resources_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\info_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\noise_height_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\place_critter_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\place_immovable_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\resize_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\set_height_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\set_origin_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\set_port_space_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\set_resources_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\set_starting_pos_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\set_terrain_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\tool_conf.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\tools\toolhistory_tool.cc">
+      <Filter>editor\tools</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\field_info_window.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\help.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\main_menu_load_map.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\main_menu_load_or_save_map.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\main_menu_map_options.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\main_menu_new_map.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\main_menu_random_map.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\main_menu_save_map.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\main_menu_save_map_make_directory.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\map_size_box.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\player_menu.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\tool_change_height_options_menu.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\tool_change_resources_options_menu.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\tool_noise_height_options_menu.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\tool_options_menu.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\tool_place_critter_options_menu.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\tool_place_immovable_options_menu.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\tool_resize_options_menu.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\tool_set_terrain_options_menu.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\tool_toolhistory_options_menu.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\ui_menus\toolsize_menu.cc">
+      <Filter>editor\ui_menus</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\editor_category.cc">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\editorinteractive.cc">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\editor\map_generator.cc">
+      <Filter>editor</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\eris.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lapi.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lauxlib.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lbaselib.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lbitlib.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lcode.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lcorolib.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lctype.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\ldblib.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\ldebug.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\ldo.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\ldump.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lfunc.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lgc.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\linit.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\liolib.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\llex.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lmathlib.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lmem.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\loadlib.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lobject.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lopcodes.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\loslib.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lparser.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lstate.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lstring.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lstrlib.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\ltable.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\ltablib.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\ltm.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lundump.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lutf8lib.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lvm.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\eris\lzio.c">
+      <Filter>eris</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_io\game_class_packet.cc">
+      <Filter>game_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_io\game_cmd_queue_packet.cc">
+      <Filter>game_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_io\game_interactive_player_packet.cc">
+      <Filter>game_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_io\game_loader.cc">
+      <Filter>game_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_io\game_map_packet.cc">
+      <Filter>game_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_io\game_player_ai_persistent_packet.cc">
+      <Filter>game_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_io\game_player_economies_packet.cc">
+      <Filter>game_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_io\game_player_info_packet.cc">
+      <Filter>game_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_io\game_preload_packet.cc">
+      <Filter>game_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\game_io\game_saver.cc">
+      <Filter>game_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\animation\animation.cc">
+      <Filter>graphic\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\animation\animation_manager.cc">
+      <Filter>graphic\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\animation\diranimations.cc">
+      <Filter>graphic\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\animation\nonpacked_animation.cc">
+      <Filter>graphic\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\animation\spritesheet_animation.cc">
+      <Filter>graphic\animation</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\gl\blit_program.cc">
+      <Filter>graphic\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\gl\dither_program.cc">
+      <Filter>graphic\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\gl\draw_line_program.cc">
+      <Filter>graphic\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\gl\fields_to_draw.cc">
+      <Filter>graphic\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\gl\fill_rect_program.cc">
+      <Filter>graphic\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\gl\grid_program.cc">
+      <Filter>graphic\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\gl\initialize.cc">
+      <Filter>graphic\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\gl\road_program.cc">
+      <Filter>graphic\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\gl\terrain_program.cc">
+      <Filter>graphic\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\gl\utils.cc">
+      <Filter>graphic\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\gl\workarea_program.cc">
+      <Filter>graphic\gl</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\styles\button_style.cc">
+      <Filter>graphic\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\styles\font_style.cc">
+      <Filter>graphic\styles</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\text\bidi.cc">
+      <Filter>graphic\text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\text\font_io.cc">
+      <Filter>graphic\text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\text\font_set.cc">
+      <Filter>graphic\text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\text\rendered_text.cc">
+      <Filter>graphic\text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\text\rt_parse.cc">
+      <Filter>graphic\text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\text\rt_render.cc">
+      <Filter>graphic\text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\text\sdl_ttf_font.cc">
+      <Filter>graphic\text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\text\textstream.cc">
+      <Filter>graphic\text</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\filesystem\disk_filesystem.cc">
+      <Filter>io\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\filesystem\filesystem.cc">
+      <Filter>io\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\filesystem\illegal_filename_check.cc">
+      <Filter>io\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\filesystem\layered_filesystem.cc">
+      <Filter>io\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\filesystem\zip_filesystem.cc">
+      <Filter>io\filesystem</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\fileread.cc">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\filewrite.cc">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\profile.cc">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\streamread.cc">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\io\streamwrite.cc">
+      <Filter>io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\battle.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\building.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\building_settings.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\carrier.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\constructionsite.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\dismantlesite.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\ferry.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\market.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\militarysite.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\partially_finished_building.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\production_program.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\productionsite.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\requirements.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\road_textures.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\ship.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\soldier.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\trainingsite.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\tribe_basic_info.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\tribe_descr.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\ware_descr.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\warehouse.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\warelist.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\worker.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\worker_descr.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\tribes\worker_program.cc">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\world\critter.cc">
+      <Filter>logic\map_objects\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\world\map_gen.cc">
+      <Filter>logic\map_objects\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\world\resource_description.cc">
+      <Filter>logic\map_objects\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\world\terrain_description.cc">
+      <Filter>logic\map_objects\world</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\backtrace.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\bob.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\buildcost.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\checkstep.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\description_maintainer.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\description_manager.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\descriptions.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\descriptions_compatibility_table.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\findbob.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\findimmovable.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\findnode.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\immovable.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\immovable_program.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\map_object.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\map_object_program.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\map_object_type.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\terrain_affinity.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_objects\walkingdir.cc">
+      <Filter>logic\map_objects</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\addons.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\ai_dna_handler.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\cmd_calculate_statistics.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\cmd_delete_message.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\cmd_incorporate.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\cmd_luacoroutine.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\cmd_luascript.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\cmd_queue.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\editor_game_base.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\field.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\filesystem_constants.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\game.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\game_data_error.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\game_settings.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\generic_save_handler.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\map_revision.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\mapastar.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\mapdifferenceregion.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\mapfringeregion.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\maphollowregion.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\maptriangleregion.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\mutable_addon.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\objective.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\path.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\pathfield.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\player.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\playercommand.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\playersmanager.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\queue_cmd_factory.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\replay.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\replay_game_controller.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\save_handler.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\single_player_game_controller.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\single_player_game_settings_provider.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\training_wheels.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\widelands.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\widelands_geometry.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\logic\widelands_geometry_io.cc">
+      <Filter>logic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\coords_profile.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_allowed_building_types_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_allowed_worker_types_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_bob_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_building_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_buildingdata_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_elemental_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_flag_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_flagdata_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_heights_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_images.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_node_ownership_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_object_loader.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_object_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_object_saver.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_objective_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_player_names_and_tribes_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_player_position_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_players_messages_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_players_view_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_port_spaces_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_resources_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_road_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_roaddata_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_saver.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_scripting_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_terrain_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_version_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_waterway_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_waterwaydata_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\map_wincondition_packet.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\s2map.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\map_io\widelands_map_loader.cc">
+      <Filter>map_io</Filter>
+    </ClCompile>
+    <ClCompile Include="src\minizip\unzip.cc">
+      <Filter>minizip</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\bufferedconnection.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\gameclient.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\gamehost.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\host_game_settings_provider.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\internet_gaming.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\internet_gaming_messages.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\net_addons.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\netclient.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\netclientproxy.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\nethost.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\nethostproxy.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\network.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\network_gaming_messages.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\network_lan_promotion.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\network_player_settings_backend.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\network\participantlist.cc">
+      <Filter>network</Filter>
+    </ClCompile>
+    <ClCompile Include="src\notifications\notifications.cc">
+      <Filter>notifications</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\_lua.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\factory.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\globals.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\logic.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\lua_bases.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\lua_coroutine.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\lua_editor.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\lua_errors.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\lua_game.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\lua_globals.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\lua_interface.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\lua_map.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\lua_path.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\lua_root.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\lua_table.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\lua_ui.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\luna_impl.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\persistence.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\report_error.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\scripting\run_script.cc">
+      <Filter>scripting</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sha1\sha1.cc">
+      <Filter>sha1</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound\constants.cc">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound\fxset.cc">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound\note_sound.cc">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound\songset.cc">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\sound\sound_handler.cc">
+      <Filter>sound</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\box.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\button.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\checkbox.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\color_chooser.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\dropdown.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\editbox.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\fileview_panel.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\icon.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\icongrid.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\listselect.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\messagebox.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\multilineeditbox.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\multilinetextarea.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\note_loading_message.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\panel.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\progressbar.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\progresswindow.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\radiobutton.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\scrollbar.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\slider.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\spinbox.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\table.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\tabpanel.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\text_prompt.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\textarea.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\unique_window.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_basic\window.cc">
+      <Filter>ui_basic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\addons\_login_box.cc">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\addons\contact.cc">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\addons\manager.cc">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\addons\packager.cc">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\addons\packager_box.cc">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\addons\progress.cc">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\addons\remote_interaction.cc">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\addons\rows_ui.cc">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\addons\screenshot_upload.cc">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\_helpwindow.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\_main.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\about.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\campaign_select.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\campaigndetails.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\campaigns.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\internet_lobby.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\keyboard_options.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\launch_game.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\launch_mpg.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\launch_spg.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\loadgame.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\login_box.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\mapdetailsbox.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\mapselect.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\menu.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\mousewheel_options.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\mousewheel_report.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\multiplayersetupgroup.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\netsetup_lan.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\options.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\random_game.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\scenario_select.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\scenariodetails.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\singleplayerdropdown.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\singleplayersetupbox.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\tech_info.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui_fsmenu\training_wheel_options.cc">
+      <Filter>ui_fsmenu</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\actionconfirm.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\attack_window.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\building_statistics_menu.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\buildingwindow.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\chat_msg_layout.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\chat_overlay.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\constructionsitewindow.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\debugconsole.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\dismantlesitewindow.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\economy_options_window.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\encyclopedia_window.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\fieldaction.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\game_chat_menu.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\game_chat_panel.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\game_client_disconnected.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\game_debug_ui.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\game_diplomacy_menu.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\game_exit_confirm_box.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\game_main_menu_save_game.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\game_message_menu.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\game_objectives_menu.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\game_options_sound_menu.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\game_summary.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\game_tips.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\gamedetails.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\general_statistics_menu.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\helpwindow.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\info_panel.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\inputqueuedisplay.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\interactive_base.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\interactive_gamebase.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\interactive_player.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\interactive_spectator.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\itemwaresdisplay.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\load_or_save_game.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\map_tags.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\mapdata.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\mapdetails.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\maptable.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\mapview.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\mapviewpixelconstants.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\mapviewpixelfunctions.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\militarysitewindow.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\minimap.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\plot_area.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\portdockwaresdisplay.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\productionsitewindow.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\quicknavigation.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\savegamedata.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\savegamedeleter.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\savegameloader.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\savegametable.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\seafaring_statistics_menu.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\shipwindow.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\soldier_statistics_menu.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\soldiercapacitycontrol.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\soldierlist.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\sound_options.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\stock_menu.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\story_message_box.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\suggested_teams_box.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\toolbar.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\trainingsitewindow.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\tribal_encyclopedia.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\unique_window_handler.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\ware_statistics_menu.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\warehousewindow.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\waresdisplay.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wui\watchwindow.cc">
+      <Filter>wui</Filter>
+    </ClCompile>
+    <ClCompile Include="src\wlapplication.cc" />
+    <ClCompile Include="src\wlapplication_messages.cc" />
+    <ClCompile Include="src\wlapplication_mousewheel_options.cc" />
+    <ClCompile Include="src\wlapplication_options.cc" />
+    <ClCompile Include="build_info.cc" />
+    <ClCompile Include="src\graphic\align.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\build_texture_atlas.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\color.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\font_handler.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\game_renderer.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\graphic.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\graphic_functions.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\image_cache.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\image_io.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\minimap_renderer.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\mouse_cursor.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\playercolor.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\render_queue.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\rendertarget.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\road_segments.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\screen.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\sdl_utils.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\style_manager.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\surface.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\text_layout.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\texture.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\texture_atlas.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\toolbar_imageset.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="src\graphic\wordwrap.cc">
+      <Filter>graphic</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ai\ai_help_structs.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ai\ai_hints.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ai\computer_player.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ai\defaultai.h">
+      <Filter>ai</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\format\abstract_node.h">
+      <Filter>base\format</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\format\boolean_node.h">
+      <Filter>base\format</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\format\common_nodes.h">
+      <Filter>base\format</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\format\float_node.h">
+      <Filter>base\format</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\format\number_node.h">
+      <Filter>base\format</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\format\string_node.h">
+      <Filter>base\format</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\format\tree.h">
+      <Filter>base\format</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\format\wildcard_node.h">
+      <Filter>base\format</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\format\write_number.h">
+      <Filter>base\format</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\i18n.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\log.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\macros.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\math.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\md5.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\multithreading.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\random.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\rect.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\scoped_timer.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\string.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\test.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\time_string.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\times.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\utf8.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\vector.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\warning.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\base\wexception.h">
+      <Filter>base</Filter>
+    </ClInclude>
+    <ClInclude Include="src\chat\chat.h">
+      <Filter>chat</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\cmd_call_economy_balance.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\economy.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\economy_data_packet.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\expedition_bootstrap.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\ferry_fleet.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\flag.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\flag_job.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\idleworkersupply.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\input_queue.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\iroute.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\itransport_cost_calculator.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\portdock.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\request.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\road.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\roadbase.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\route.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\routeastar.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\router.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\routing_node.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\ship_fleet.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\shipping_schedule.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\shippingitem.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\supply.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\supply_list.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\trackptr.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\transfer.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\ware_instance.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\ware_priority.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\warehousesupply.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\wares_queue.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\waterway.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\economy\workers_queue.h">
+      <Filter>economy</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\action_args.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\decrease_height_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\decrease_resources_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\delete_critter_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\delete_immovable_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\draw_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\history.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\increase_height_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\increase_resources_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\info_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\multi_select.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\noise_height_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\place_critter_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\place_immovable_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\resize_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\set_height_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\set_origin_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\set_port_space_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\set_resources_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\set_starting_pos_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\set_terrain_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\tool_action.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\tool_conf.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\tools\toolhistory_tool.h">
+      <Filter>editor\tools</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\categorized_item_selection_menu.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\field_info_window.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\help.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\main_menu_load_map.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\main_menu_load_or_save_map.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\main_menu_map_options.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\main_menu_new_map.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\main_menu_random_map.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\main_menu_save_map.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\main_menu_save_map_make_directory.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\map_size_box.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\player_menu.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\tool_change_height_options_menu.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\tool_change_resources_options_menu.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\tool_noise_height_options_menu.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\tool_options_menu.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\tool_place_critter_options_menu.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\tool_place_immovable_options_menu.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\tool_resize_options_menu.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\tool_set_terrain_options_menu.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\tool_toolhistory_options_menu.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\ui_menus\toolsize_menu.h">
+      <Filter>editor\ui_menus</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\editor_category.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\editorinteractive.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\editor\map_generator.h">
+      <Filter>editor</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\eris.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lapi.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lauxlib.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lcode.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lctype.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\ldebug.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\ldo.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lfunc.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lgc.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\llex.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\llimits.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lmem.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lobject.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lopcodes.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lparser.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lprefix.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lstate.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lstring.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\ltable.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\ltm.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lundump.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lvm.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lzio.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lua.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\lualib.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\eris\luaconf.h">
+      <Filter>eris</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_io\game_class_packet.h">
+      <Filter>game_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_io\game_cmd_queue_packet.h">
+      <Filter>game_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_io\game_data_packet.h">
+      <Filter>game_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_io\game_interactive_player_packet.h">
+      <Filter>game_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_io\game_loader.h">
+      <Filter>game_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_io\game_map_packet.h">
+      <Filter>game_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_io\game_player_ai_persistent_packet.h">
+      <Filter>game_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_io\game_player_economies_packet.h">
+      <Filter>game_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_io\game_player_info_packet.h">
+      <Filter>game_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_io\game_preload_packet.h">
+      <Filter>game_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\game_io\game_saver.h">
+      <Filter>game_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\animation\animation.h">
+      <Filter>graphic\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\animation\animation_manager.h">
+      <Filter>graphic\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\animation\diranimations.h">
+      <Filter>graphic\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\animation\nonpacked_animation.h">
+      <Filter>graphic\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\animation\spritesheet_animation.h">
+      <Filter>graphic\animation</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\blit_data.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\blit_program.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\coordinate_conversion.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\dither_program.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\draw_line_program.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\fields_to_draw.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\fill_rect_program.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\grid_program.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\initialize.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\road_program.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\system_headers.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\terrain_program.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\utils.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\gl\workarea_program.h">
+      <Filter>graphic\gl</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\styles\building_statistics_style.h">
+      <Filter>graphic\styles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\styles\button_style.h">
+      <Filter>graphic\styles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\styles\font_style.h">
+      <Filter>graphic\styles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\styles\panel_styles.h">
+      <Filter>graphic\styles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\styles\progress_bar_style.h">
+      <Filter>graphic\styles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\styles\statistics_plot_style.h">
+      <Filter>graphic\styles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\styles\table_style.h">
+      <Filter>graphic\styles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\styles\text_panel_style.h">
+      <Filter>graphic\styles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\styles\ware_info_style.h">
+      <Filter>graphic\styles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\styles\window_style.h">
+      <Filter>graphic\styles</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\text\bidi.h">
+      <Filter>graphic\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\text\font_io.h">
+      <Filter>graphic\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\text\font_set.h">
+      <Filter>graphic\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\text\rendered_text.h">
+      <Filter>graphic\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\text\rt_errors.h">
+      <Filter>graphic\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\text\rt_errors_impl.h">
+      <Filter>graphic\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\text\rt_parse.h">
+      <Filter>graphic\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\text\rt_render.h">
+      <Filter>graphic\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\text\sdl_ttf_font.h">
+      <Filter>graphic\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\text\textstream.h">
+      <Filter>graphic\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\text\texture_cache.h">
+      <Filter>graphic\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\text\transient_cache.h">
+      <Filter>graphic\text</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io\filesystem\disk_filesystem.h">
+      <Filter>io\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io\filesystem\filesystem.h">
+      <Filter>io\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io\filesystem\filesystem_exceptions.h">
+      <Filter>io\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io\filesystem\illegal_filename_check.h">
+      <Filter>io\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io\filesystem\layered_filesystem.h">
+      <Filter>io\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io\filesystem\zip_exceptions.h">
+      <Filter>io\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io\filesystem\zip_filesystem.h">
+      <Filter>io\filesystem</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io\fileread.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io\filewrite.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io\machdep.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io\profile.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io\streamread.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\io\streamwrite.h">
+      <Filter>io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\attack_target.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\battle.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\bill_of_materials.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\building.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\building_settings.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\carrier.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\constructionsite.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\dismantlesite.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\ferry.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\market.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\militarysite.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\partially_finished_building.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\production_program.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\productionsite.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\program_result.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\requirements.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\road_textures.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\ship.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\soldier.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\soldiercontrol.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\training_attribute.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\trainingsite.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\tribe_basic_info.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\tribe_descr.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\ware_descr.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\warehouse.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\warelist.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\wareworker.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\workarea_info.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\worker.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\worker_descr.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\tribes\worker_program.h">
+      <Filter>logic\map_objects\tribes</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\world\critter.h">
+      <Filter>logic\map_objects\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\world\critter_program.h">
+      <Filter>logic\map_objects\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\world\map_gen.h">
+      <Filter>logic\map_objects\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\world\resource_description.h">
+      <Filter>logic\map_objects\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\world\terrain_description.h">
+      <Filter>logic\map_objects\world</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\backtrace.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\bob.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\buildcost.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\checkstep.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\description_maintainer.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\description_manager.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\descriptions.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\descriptions_compatibility_table.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\findbob.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\findimmovable.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\findnode.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\immovable.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\immovable_program.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\info_to_draw.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\map_object.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\map_object_program.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\map_object_type.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\terrain_affinity.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_objects\walkingdir.h">
+      <Filter>logic\map_objects</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\addons.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\ai_dna_handler.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\cmd_calculate_statistics.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\cmd_delete_message.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\cmd_incorporate.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\cmd_luacoroutine.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\cmd_luascript.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\cmd_queue.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\cookie_priority_queue.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\editor_game_base.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\field.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\filesystem_constants.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\game.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\game_controller.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\game_data_error.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\game_settings.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\generic_save_handler.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\map_revision.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\mapastar.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\mapdifferenceregion.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\mapfringeregion.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\maphollowregion.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\mapregion.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\maptriangleregion.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\message.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\message_id.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\message_queue.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\mutable_addon.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\nodecaps.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\note_map_options.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\objective.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\path.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\pathfield.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\player.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\player_area.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\player_end_result.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\playercommand.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\playersmanager.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\queue_cmd_factory.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\queue_cmd_ids.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\replay.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\replay_game_controller.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\save_handler.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\single_player_game_controller.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\single_player_game_settings_provider.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\trade_agreement.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\training_wheels.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\vision.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\widelands.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\widelands_geometry.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\logic\widelands_geometry_io.h">
+      <Filter>logic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\coords_profile.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_allowed_building_types_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_allowed_worker_types_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_bob_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_building_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_buildingdata_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_data_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_elemental_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_flag_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_flagdata_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_heights_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_images.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_loader.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_message_saver.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_node_ownership_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_object_loader.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_object_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_object_saver.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_objective_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_packet_versions.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_player_names_and_tribes_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_player_position_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_players_messages_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_players_view_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_port_spaces_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_resources_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_road_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_roaddata_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_saver.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_scripting_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_terrain_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_version_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_waterway_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_waterwaydata_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\map_wincondition_packet.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\s2map.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\map_io\widelands_map_loader.h">
+      <Filter>map_io</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minizip\ioapi.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minizip\unzip.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="src\minizip\zip.h">
+      <Filter>minizip</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\bufferedconnection.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\constants.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\gameclient.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\gamehost.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\host_game_settings_provider.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\internet_gaming.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\internet_gaming_messages.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\internet_gaming_protocol.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\net_addons.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\netclient.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\netclient_interface.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\netclientproxy.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\nethost.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\nethost_interface.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\nethostproxy.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\network.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\network_gaming_messages.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\network_lan_promotion.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\network_player_settings_backend.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\network_protocol.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\participantlist.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\network\relay_protocol.h">
+      <Filter>network</Filter>
+    </ClInclude>
+    <ClInclude Include="src\notifications\note_ids.h">
+      <Filter>notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="src\notifications\notifications.h">
+      <Filter>notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="src\notifications\notifications_impl.h">
+      <Filter>notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="src\notifications\signal.h">
+      <Filter>notifications</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\eris.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\factory.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\globals.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\logic.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\lua.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\lua_bases.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\lua_coroutine.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\lua_editor.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\lua_errors.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\lua_game.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\lua_globals.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\lua_interface.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\lua_map.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\lua_path.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\lua_root.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\lua_table.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\lua_ui.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\luna.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\luna_impl.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\persistence.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\report_error.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\scripting\run_script.h">
+      <Filter>scripting</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sha1\sha1.h">
+      <Filter>sha1</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound\constants.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound\fxset.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound\note_sound.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound\songset.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\sound\sound_handler.h">
+      <Filter>sound</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\box.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\button.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\checkbox.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\color_chooser.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\dropdown.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\editbox.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\fileview_panel.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\icon.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\icongrid.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\listselect.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\messagebox.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\mouse_constants.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\multilineeditbox.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\multilinetextarea.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\note_loading_message.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\panel.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\progressbar.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\progresswindow.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\radiobutton.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\scrollbar.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\slider.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\spinbox.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\table.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\tabpanel.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\text_prompt.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\textarea.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\unique_window.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_basic\window.h">
+      <Filter>ui_basic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\addons\contact.h">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\addons\login_box.h">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\addons\manager.h">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\addons\packager.h">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\addons\packager_box.h">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\addons\progress.h">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\addons\remote_interaction.h">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\addons\rows_ui.h">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\addons\screenshot_upload.h">
+      <Filter>ui_fsmenu\addons</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\about.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\campaign_select.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\campaigndetails.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\campaigns.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\helpwindow.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\internet_lobby.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\keyboard_options.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\launch_game.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\launch_mpg.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\launch_spg.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\loadgame.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\login_box.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\main.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\mapdetailsbox.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\mapselect.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\menu.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\mousewheel_options.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\mousewheel_report.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\multiplayersetupgroup.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\netsetup_lan.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\options.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\random_game.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\scenario_select.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\scenariodetails.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\singleplayerdropdown.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\singleplayersetupbox.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\tech_info.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui_fsmenu\training_wheel_options.h">
+      <Filter>ui_fsmenu</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\actionconfirm.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\attack_window.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\building_statistics_menu.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\buildingwindow.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\chat_msg_layout.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\chat_overlay.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\constructionsitewindow.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\debugconsole.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\dismantlesitewindow.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\economy_options_window.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\encyclopedia_window.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\fieldaction.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\game_chat_menu.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\game_chat_panel.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\game_client_disconnected.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\game_debug_ui.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\game_diplomacy_menu.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\game_exit_confirm_box.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\game_main_menu_save_game.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\game_message_menu.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\game_objectives_menu.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\game_options_sound_menu.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\game_summary.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\game_tips.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\gamedetails.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\general_statistics_menu.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\helpwindow.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\info_panel.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\inputqueuedisplay.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\interactive_base.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\interactive_gamebase.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\interactive_player.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\interactive_spectator.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\itemwaresdisplay.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\load_or_save_game.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\map_tags.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\mapauthordata.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\mapdata.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\mapdetails.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\maptable.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\mapview.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\mapviewpixelconstants.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\mapviewpixelfunctions.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\militarysitewindow.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\minimap.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\plot_area.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\portdockwaresdisplay.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\productionsitewindow.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\quicknavigation.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\savegamedata.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\savegamedeleter.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\savegameloader.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\savegametable.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\seafaring_statistics_menu.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\shipwindow.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\soldier_statistics_menu.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\soldiercapacitycontrol.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\soldierlist.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\sound_options.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\stock_menu.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\story_message_box.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\suggested_teams_box.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\toolbar.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\trainingsitewindow.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\tribal_encyclopedia.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\unique_window_handler.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\ware_statistics_menu.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\warehousewindow.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\waresdisplay.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wui\watchwindow.h">
+      <Filter>wui</Filter>
+    </ClInclude>
+    <ClInclude Include="src\wlapplication.h" />
+    <ClInclude Include="src\wlapplication_messages.h" />
+    <ClInclude Include="src\wlapplication_mousewheel_options.h" />
+    <ClInclude Include="src\wlapplication_options.h" />
+    <ClInclude Include="build_info.h" />
+    <ClInclude Include="config.h" />
+    <ClInclude Include="src\graphic\align.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\blend_mode.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\blit_mode.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\build_texture_atlas.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\color.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\default_resolution.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\font_handler.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\game_renderer.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\graphic.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\graphic_functions.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\image.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\image_cache.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\image_io.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\minimap_renderer.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\mouse_cursor.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\note_graphic_resolution_changed.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\playercolor.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\render_queue.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\rendertarget.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\road_segments.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\screen.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\sdl_utils.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\style_manager.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\surface.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\text_layout.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\texture.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\texture_atlas.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\toolbar_imageset.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="src\graphic\wordwrap.h">
+      <Filter>graphic</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="src\eris\README.eris">
+      <Filter>eris</Filter>
+    </None>
+  </ItemGroup>
+</Project>

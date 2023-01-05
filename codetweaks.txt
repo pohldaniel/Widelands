@@ -1,0 +1,24 @@
+trainingsite.h
+	209
+	210
+	
+building_statics_menu.cc
+	322
+	
+panel.cc
+	172, 282, 1497, 1623, 1657
+	
+lua_table.h
+	25
+	
+bob.cc
+	900, 904, 934
+	
+map_object.cc
+	682
+	
+manager.h
+	56
+	
+dropdown.h
+	424
