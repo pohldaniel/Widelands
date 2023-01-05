@@ -1,1 +1,5 @@
 # Widelands
+
+This repository contains a setup of https://github.com/widelands/widelands and it's dependencies. I got it compiling and running under Windows 10 using Visual Studio 2015. I had to do small tweaks to the code by using VS 2015 and highly recomand using a newer version. Unfortunataly I wasn't able to split up the libwidelands project into smaller libraries but will try it again soon. It should be clear that the Copyright of Warmux and of it's dependencies are not in my hand.
+
+My intention for this repository is to get a deeper understanding of game programing.
