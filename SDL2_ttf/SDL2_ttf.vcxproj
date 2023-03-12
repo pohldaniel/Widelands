@@ -160,6 +160,9 @@
   <ItemGroup>
     <ClCompile Include="src\SDL_ttf.c" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include\SDL_ttf.h" />
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
